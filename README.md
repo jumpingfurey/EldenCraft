@@ -2,6 +2,8 @@
 
 Run Minecraft Java 1.21.1 alongside Elden Ring, with bridged movement, floor sampling, combat and block building.
 
+**[Download the Windows prototype](https://github.com/jumpingfurey/EldenCraft/releases/tag/v0.1.0)** · [Setup guide](docs/PLAY.md) · [Report a bug](https://github.com/jumpingfurey/EldenCraft/issues) · [Contribute](CONTRIBUTING.md)
+
 **This is an unfinished prototype.** Minecraft currently draws in a transparent window over Elden Ring. Windows DirectX 12 composition, depth occlusion and host lighting are not implemented: blocks can show through the map, and camera alignment can drift or bounce. Ground collision is approximate; proper wall collision is unfinished.
 
 Adapted from [justbustin's Minecraft crossover bridge](https://github.com/justbustin/minecraft-crossover-bridge). [SkyCraft](https://github.com/chasmlol/SkyCraft) inspired the request, but its Skyrim plugin is not used as the Elden Ring host.
@@ -15,7 +17,7 @@ Adapted from [justbustin's Minecraft crossover bridge](https://github.com/justbu
 
 ## Play
 
-Use the clean Windows package, then follow [the player setup guide](docs/PLAY.md). Source checkouts need building and packaging first; the launcher alone does not contain the mod binaries.
+Download `EldenCraft-Windows-Prototype-0.1.0.zip` from [the release page](https://github.com/jumpingfurey/EldenCraft/releases/tag/v0.1.0), extract it, then follow [the player setup guide](docs/PLAY.md). Source checkouts need building and packaging first; the launcher alone does not contain the mod binaries.
 
 The portable launcher starts Elden Ring. Start the dedicated Fabric profile yourself in the official Minecraft Launcher, signed into your own account. Automatic Minecraft startup in the original development workspace is not part of this portable player workflow.
 
@@ -46,3 +48,7 @@ No game assets, Minecraft distributions, personal worlds, saves, login tokens or
 MIT; preserve the upstream copyright notice in [LICENSE](LICENSE). Other dependencies retain their own licenses. See [third-party notices](THIRD-PARTY-NOTICES.md).
 
 This is an independent fan project, not affiliated with Mojang, Microsoft, FromSoftware or Bandai Namco.
+
+## Help the project grow
+
+Try the prototype, share clips of what works and what needs improving, and link back to this repository. Bug reports with reproduction steps and pull requests are welcome. Developers interested in DirectX 12 rendering, depth occlusion or collision can start with [the architecture notes](docs/ARCHITECTURE.md).
