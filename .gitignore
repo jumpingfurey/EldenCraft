@@ -1,0 +1,35 @@
+# Builds and dependencies
+/build/
+/dist/
+**/build/
+**/.gradle/
+**/.idea/
+**/.vscode/
+*.user
+*.suo
+# Personal game data and local configuration
+**/run/
+**/runtime/
+**/saves/
+**/save-backups/
+**/logs/
+**/loaded/
+**/eldencraft-config.json
+*.sl2
+*.eldencraft
+*.shm
+mc_cmd.txt
+*.log
+# Credentials and environment files
+.env
+.env.*
+*.pem
+*.key
+# Native artifacts belong in releases
+*.dll
+*.exe
+*.pdb
+*.obj
+*.lib
+*.exp
+*.zip
