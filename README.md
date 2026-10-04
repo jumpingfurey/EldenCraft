@@ -29,7 +29,7 @@ The portable launcher starts Elden Ring. Start the dedicated Fabric profile your
 
 ### Verify the download
 
-[VirusTotal hash lookup for the v0.1.0 ZIP](https://www.virustotal.com/gui/file/616edb3ede46602bf8a28dcb7a36e8c66c5958ec0d707d2c7c3be2eae35a8a61) · [Checksums and scan status](docs/DOWNLOAD-VERIFICATION.md). **No completed VirusTotal report has been verified for this ZIP yet.** This link identifies the exact release hash; it is not a claim that the file was scanned or is guaranteed safe.
+[VirusTotal report for the v0.1.0 ZIP](https://www.virustotal.com/gui/file/616edb3ede46602bf8a28dcb7a36e8c66c5958ec0d707d2c7c3be2eae35a8a61) · [Checksums and individual scan results](docs/DOWNLOAD-VERIFICATION.md). On 4 October 2026 the ZIP showed **1/60 detections (Elastic)** and the native core DLL showed **1/71 (Cynet)**. The loader scan is pending a CAPTCHA. These results do **not** establish that the package is safe; the detections have not been confirmed as false positives.
 
 | Control | Action |
 | --- | --- |
