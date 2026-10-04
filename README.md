@@ -8,6 +8,12 @@ Run Minecraft Java 1.21.1 alongside Elden Ring, with bridged movement, floor sam
 
 Adapted from [justbustin's Minecraft crossover bridge](https://github.com/justbustin/minecraft-crossover-bridge). [SkyCraft](https://github.com/chasmlol/SkyCraft) inspired the request, but its Skyrim plugin is not used as the Elden Ring host.
 
+## Watch the showcase
+
+[![EldenCraft — Minecraft × Elden Ring showcase](docs/media/showcase-cover.jpg)](https://github.com/jumpingfurey/EldenCraft/releases/download/v0.1.0/EldenCraft-Showcase-1080p.mp4)
+
+[Watch/download the 51-second showcase](https://github.com/jumpingfurey/EldenCraft/releases/download/v0.1.0/EldenCraft-Showcase-1080p.mp4) — 1080p, 60 FPS. Recorded prototype gameplay, edited from two clips supplied by the project owner.
+
 ## Requirements
 
 - Windows x64; owned copies of Elden Ring and Minecraft: Java Edition.
@@ -46,6 +52,8 @@ No game assets, Minecraft distributions, personal worlds, saves, login tokens or
 ## License and credits
 
 MIT; preserve the upstream copyright notice in [LICENSE](LICENSE). Other dependencies retain their own licenses. See [third-party notices](THIRD-PARTY-NOTICES.md).
+
+Project owner: [jumpingfurey](https://github.com/jumpingfurey). Development, documentation, packaging and showcase editing received **OpenAI Codex AI assistance**. See [contributors](CONTRIBUTORS.md) for credits.
 
 This is an independent fan project, not affiliated with Mojang, Microsoft, FromSoftware or Bandai Namco.
 
