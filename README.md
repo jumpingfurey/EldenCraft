@@ -27,6 +27,10 @@ Download `EldenCraft-Windows-Prototype-0.1.0.zip` from [the release page](https:
 
 The portable launcher starts Elden Ring. Start the dedicated Fabric profile yourself in the official Minecraft Launcher, signed into your own account. Automatic Minecraft startup in the original development workspace is not part of this portable player workflow.
 
+### Verify the download
+
+[VirusTotal hash lookup for the v0.1.0 ZIP](https://www.virustotal.com/gui/file/616edb3ede46602bf8a28dcb7a36e8c66c5958ec0d707d2c7c3be2eae35a8a61) · [Checksums and scan status](docs/DOWNLOAD-VERIFICATION.md). **No completed VirusTotal report has been verified for this ZIP yet.** This link identifies the exact release hash; it is not a claim that the file was scanned or is guaranteed safe.
+
 | Control | Action |
 | --- | --- |
 | WASD / mouse / Space | Minecraft movement and building |
